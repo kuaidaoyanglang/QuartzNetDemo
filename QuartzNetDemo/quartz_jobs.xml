@@ -49,7 +49,7 @@
         <job-name>sampleJob</job-name>
         <job-group>sampleGroup</job-group>
         <misfire-instruction>SmartPolicy</misfire-instruction>
-        <cron-expression>0/10 * * * * ?</cron-expression>
+        <cron-expression>* * * * * ?</cron-expression>
       </cron>
     </trigger>
     <trigger>
